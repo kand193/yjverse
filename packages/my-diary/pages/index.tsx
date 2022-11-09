@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import Header from '../components/common/Header';
+
 const StyledPage = styled.div`
   .page {
   }
@@ -13,6 +15,7 @@ export function Index() {
    */
   return (
     <StyledPage>
+      <Header />
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
